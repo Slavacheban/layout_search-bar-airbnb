@@ -6,6 +6,7 @@ const { basicScenario } = backstop;
 
 const basic = {
   ...basicScenario,
+  url: 'http://localhost:8081/index.html',
   label: 'Elementary test',
   referenceUrl: basicScenario.referenceUrl + '/search-bar-airbnb/',
 };
